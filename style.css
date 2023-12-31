@@ -4,12 +4,71 @@ body
 
     /* Make the text white since the background is so dark*/
     color: #FFFFFF;
+
+    padding-left: 8%;
 }
 
-/* Contain completed classes within an unordered list class */
+/* Set styling for first part of welcome message for homepage */
+.welcome_message
+{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    font-size: 82px;
+
+    padding-top:10%;
+    padding-bottom:5%;
+}
+
+/* Set styling for second part of welcoem message for homepage */
+.welcome_message strong
+{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+/* Set font styling for main element text */
+main
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+main h2
+{
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-block-end: 0.1em;
+}
+
+main p
+{
+    font-weight:100;
+    font-size: 22px;
+}
+
+main li
+{
+    font-weight: 100;
+    font-size: 22px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+main ul
+{
+    margin-top: 5px;
+}
+
+/* List styling for list of completed classes*/
 .completed_classes
 {
-    color: #FFFFFF;
-    padding: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+/* List styling for list of skillsets*/
+.skillsets
+{
+    padding-left: 0;
     list-style-type: none;
 }
