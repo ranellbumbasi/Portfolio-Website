@@ -2,10 +2,9 @@ body
 {
     background-color: #081920;
 
-    /* Make the text white since the background is so dark*/
     color: #FFFFFF;
 
-    padding-left: 8%;
+    padding-left: 25%;
 }
 
 /* Set styling for first part of welcome message for homepage */
@@ -15,15 +14,17 @@ body
     font-weight: 100;
     font-size: 82px;
 
-    padding-top:10%;
-    padding-bottom:5%;
+    margin-top:10%;
+    margin-bottom:5%;
 }
 
-/* Set styling for second part of welcoem message for homepage */
+/* Set styling for second part of welcome message for homepage */
 .welcome_message strong
 {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
+
+    color: #CEB268;
 }
 
 /* Set font styling for main element text */
@@ -34,7 +35,7 @@ main
 
 main h2
 {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 40px;
     margin-bottom: 0px;
     margin-block-end: 0.1em;
@@ -42,13 +43,34 @@ main h2
 
 main p
 {
-    font-weight:100;
+    font-weight: 300;
     font-size: 22px;
+}
+
+main p strong
+{
+    font-weight: 700;
+}
+
+/* Styling for descriptions explaining experience */
+main .description
+{
+    font-size: 16px;
+    margin-top:5px;
+
+    width: 590px;
+}
+
+/* Styling for dates of experience */
+main .date
+{
+    font-size: 12px;
+    margin-left: 10px;
 }
 
 main li
 {
-    font-weight: 100;
+    font-weight: 300;
     font-size: 22px;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -68,6 +90,13 @@ main ul
 
 /* List styling for list of skillsets*/
 .skillsets
+{
+    padding-left: 0;
+    list-style-type: none;
+}
+
+/* List styling for experience list */
+.experience_list
 {
     padding-left: 0;
     list-style-type: none;
