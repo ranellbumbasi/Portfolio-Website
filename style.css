@@ -39,6 +39,7 @@ main h2
     font-size: 40px;
     margin-bottom: 0px;
     margin-block-end: 0.1em;
+    color: #CEB268;
 }
 
 main p
@@ -50,14 +51,14 @@ main p
 main p strong
 {
     font-weight: 700;
+    color: #CEB268;
 }
 
-/* Styling for descriptions explaining experience */
+/* Styling for descriptive text */
 main .description
 {
     font-size: 16px;
     margin-top:5px;
-
     width: 590px;
 }
 
@@ -100,4 +101,12 @@ main ul
 {
     padding-left: 0;
     list-style-type: none;
+}
+
+/* List styling for descriptive unordered lists in main*/
+main ul .description_list
+{
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding-left: 0;
 }
