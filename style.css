@@ -5,10 +5,12 @@ body
     color: #FFFFFF;
 
     padding-left: 20%;
+
+    width: auto;
 }
 
 /* Set styling for first part of welcome message for homepage */
-.welcome_message
+.welcome_title
 {
     font-family: 'Roboto Slab', serif;
     font-weight: 100;
@@ -22,6 +24,19 @@ body
 .welcome_message strong
 {
     font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+
+    color: #CEB268;
+}
+
+.welcome_description
+{
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.welcome_description strong
+{
     font-weight: 700;
 
     color: #CEB268;
@@ -59,7 +74,7 @@ main .description
 {
     font-size: 16px;
     margin-top:5px;
-    width: 590px;
+    width: 450px;
 }
 
 /* Styling for dates of experience */
@@ -106,7 +121,7 @@ main ul
 /* List styling for descriptive unordered lists in main*/
 main ul .description_list
 {
-    list-style-type: none;
+    list-style-type: ' > ';
     margin-bottom: 10px;
-    padding-left: 0;
+    padding-left: 15px;
 }
