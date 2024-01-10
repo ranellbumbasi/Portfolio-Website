@@ -4,7 +4,8 @@ body
 
     color: #FFFFFF;
 
-    padding-left: 20%;
+    margin-left: 10%;
+    margin-right: auto;
 
     width: auto;
 }
@@ -14,7 +15,7 @@ body
 {
     font-family: 'Roboto Slab', serif;
     font-weight: 100;
-    font-size: 82px;
+    font-size: 75px;
 
     margin-top:10%;
     margin-bottom:5%;
@@ -74,14 +75,15 @@ main .description
 {
     font-size: 16px;
     margin-top:5px;
-    width: 450px;
+    width: 350px;
 }
 
 /* Styling for dates of experience */
 main .date
 {
+    opacity: 50%;
     font-size: 12px;
-    margin-left: 10px;
+    margin-top:0;
 }
 
 main li
@@ -124,29 +126,4 @@ main ul .description_list
     list-style-type: ' > ';
     margin-bottom: 10px;
     padding-left: 15px;
-}
-
-/* Styling for website footer */
-
-footer
-{
-    font-family:Roboto, sans-serif;
-
-    background-color:#CEB268;
-    width:450px;
-}
-
-footer p
-{
-    padding-top:10px;
-    margin-bottom:0;
-
-    color:black;
-}
-
-footer a
-{
-    padding-top:10px;
-
-    color:black;
 }
