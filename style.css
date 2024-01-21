@@ -5,7 +5,9 @@ body
     color: #FFFFFF;
 
     margin-left: 10%;
-    margin-right: auto;
+    margin-right: 10%;
+    
+    text-align: center;
 
     width: auto;
 }
@@ -21,6 +23,11 @@ body
     margin-bottom:5%;
 }
 
+.welcome_title strong
+{
+    color: #CEB268;
+}
+
 /* Set styling for second part of welcome message for homepage */
 .welcome_message strong
 {
@@ -33,7 +40,7 @@ body
 .welcome_description
 {
     font-weight: 100;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .welcome_description strong
@@ -52,10 +59,14 @@ main
 main h2
 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 0px;
     margin-block-end: 0.1em;
     color: #CEB268;
+    text-align: left;
+
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 main p
@@ -75,7 +86,6 @@ main .description
 {
     font-size: 16px;
     margin-top:5px;
-    width: 350px;
 }
 
 /* Styling for dates of experience */
@@ -97,36 +107,40 @@ main li
 main ul
 {
     margin-top: 5px;
+    text-align: left;
+
+    list-style-type: " > ";
+
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 /* Each list has its own class in the event 
 of unique styling to the different lists */
 
+/* List styling for experience list */
+.experience_list
+{
+    padding-left: 5%;
+}
+
+
 /* List styling for list of completed classes*/
 .completed_classes
 {
-    padding-left: 0;
-    list-style-type: none;
+    padding-left: 5%;
 }
 
 /* List styling for list of skillsets*/
 .skillsets
 {
-    padding-left: 0;
-    list-style-type: none;
+    padding-left: 5%;
 }
 
-/* List styling for experience list */
-.experience_list
-{
-    padding-left: 0;
-    list-style-type: none;
-}
 
 .personalproj_list
 {
-    padding-left: 0;
-    list-style-type: none;
+    padding-left: 5%;
 }
 
 /* List styling for descriptive unordered lists in main*/
@@ -136,3 +150,38 @@ main ul .description_list
     margin-bottom: 10px;
     padding-left: 15px;
 }
+
+/* Flexbox styling */
+.flexbox_container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flexbox-item
+{
+    width:370px;
+    margin:10px;
+    border: 1px solid #CEB268;
+    
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.completed_classes_box
+{
+    min-height: 300px;
+}
+
+.experience_list_box
+{
+    min-height: 300px;
+}
+
+.personalproj_box
+{
+    min-height: 300px;
+
+}
+
