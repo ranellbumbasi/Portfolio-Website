@@ -1,5 +1,4 @@
-body
-{
+body{
     background-color: #081920;
 
     color: #FFFFFF;
@@ -13,8 +12,7 @@ body
 }
 
 /* Set styling for first part of welcome message for homepage */
-.welcome_title
-{
+.welcome_title{
     font-family: 'Roboto Slab', serif;
     font-weight: 100;
     font-size: 70px;
@@ -23,41 +21,35 @@ body
     margin-bottom:5%;
 }
 
-.welcome_title strong
-{
+.welcome_title strong{
     color: #CEB268;
 }
 
 /* Set styling for second part of welcome message for homepage */
-.welcome_message strong
-{
+.welcome_message strong{
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
 
     color: #CEB268;
 }
 
-.welcome_description
-{
+.welcome_description{
     font-weight: 100;
     font-size: 30px;
 }
 
-.welcome_description strong
-{
+.welcome_description strong{
     font-weight: 700;
 
     color: #CEB268;
 }
 
 /* Set font styling for main element text */
-main
-{
+main{
     font-family: 'Roboto', sans-serif;
 }
 
-main h2
-{
+main h2{
     font-weight: 700;
     font-size: 30px;
     margin-bottom: 0px;
@@ -69,35 +61,30 @@ main h2
     margin-right: 3%;
 }
 
-main p
-{
+main p{
     font-weight: 300;
     font-size: 22px;
 }
 
-main p strong
-{
+main p strong{
     font-weight: 700;
     color: #CEB268;
 }
 
 /* Styling for descriptive text */
-main .description
-{
+main .description{
     font-size: 16px;
     margin-top:5px;
 }
 
 /* Styling for dates of experience */
-main .date
-{
+main .date{
     opacity: 50%;
     font-size: 12px;
     margin-top:0;
 }
 
-main li
-{
+main li{
     font-weight: 300;
     font-size: 22px;
     margin-top: 2px;
@@ -183,5 +170,41 @@ main ul .description_list
 {
     min-height: 300px;
 
+}
+
+/* Footer styling */
+footer
+{
+    font-family: 'Roboto', serif;
+    padding: 10%;
+}
+
+footer p
+{
+    font-weight: 300;
+}
+
+footer i
+{
+    font-size: 40px;
+}
+
+footer a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:#CEB268;
+}
+
+.linked-in-icon
+{
+    fill:#FFFFFF;
+}
+
+.icon:hover .linked-in-icon
+{
+    fill:#CEB268;
 }
 
