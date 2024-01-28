@@ -17,8 +17,8 @@ body{
     font-weight: 100;
     font-size: 70px;
 
-    margin-top:10%;
-    margin-bottom:5%;
+    margin-top:20%;
+    margin-bottom: 5%;
 }
 
 .welcome_title strong{
@@ -26,16 +26,16 @@ body{
 }
 
 /* Set styling for second part of welcome message for homepage */
+.welcome_description{
+    font-weight: 100;
+    font-size: 30px;
+}
+
 .welcome_message strong{
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
 
     color: #CEB268;
-}
-
-.welcome_description{
-    font-weight: 100;
-    font-size: 30px;
 }
 
 .welcome_description strong{
@@ -56,8 +56,8 @@ main h2{
     color: #CEB268;
     text-align: left;
 
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 9%;
+    margin-right: 9%;
 }
 
 main p{
@@ -72,33 +72,31 @@ main p strong{
 
 /* Styling for descriptive text */
 main .description{
+    margin-top: 8px;
     font-size: 16px;
-    margin-top:5px;
 }
 
 /* Styling for dates of experience */
 main .date{
     opacity: 50%;
     font-size: 12px;
-    margin-top:0;
+    margin-top:0px;
+    margin-bottom: 0px;
 }
 
 main li{
     font-weight: 300;
     font-size: 22px;
-    margin-top: 2px;
-    margin-bottom: 2px;
 }
 
 main ul
 {
-    margin-top: 5px;
     text-align: left;
 
     list-style-type: " > ";
 
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 9%;
+    margin-right: 9%;
 }
 
 /* Each list has its own class in the event 
@@ -133,13 +131,13 @@ of unique styling to the different lists */
 main ul .description_list
 {
     list-style-type: ' > ';
-    margin-bottom: 10px;
     padding-left: 15px;
 }
 
 /* Flexbox styling */
 .flexbox_container
 {
+    margin-top:30%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
